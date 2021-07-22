@@ -1,3 +1,4 @@
+
 #ejercicio 3
 
 mensaje="""
@@ -27,4 +28,3 @@ iva = 19
 iva_porcentaje = iva / 100 #0.19
 #valor_total = 1423 * 0.19 
 valor_total= valor_producto + (valor_producto * iva_porcentaje)#1693.37
-
