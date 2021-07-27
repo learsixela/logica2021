@@ -27,3 +27,6 @@ resta2 = restar(1,4) # resta2= -3
 resta3 = resta1 + resta2 # resta3= -2 + -3 = -5
 print(resta3) # -5
 valor_final= sumar(resta1,resta2)
+
+
+################################################
