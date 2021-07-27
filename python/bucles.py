@@ -16,9 +16,21 @@ for i in range(1,10,2):
 #FOR para Listas
 vocales = ['a','e','i','o','u']
 len(vocales)# len() tamaño o cantidad de elementos de la lista
+
+#accedemos a los elementos de la lista por su indice o posicion (i)
 for i in range(0,len(vocales)):
     print (i, vocales[i])#0, "a"
 
 #for de objeto
-for x in vocales:
-    print (x)
+#accedemos a los elementos de la lista
+for elemento in vocales:
+    print (elemento)
+
+alumno = {"nombre": "Cristian", "edad": 25, "curso": "python"}
+for key in alumno:
+    print (key)#nombre, edad, curso
+    print (alumno[key])#Cristian, 25, python
+    print (key, alumno[key])#
+
+for key, elemento in alumno.items():
+    print(key," = " ,elemento)

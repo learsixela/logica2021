@@ -40,3 +40,12 @@ print(lista) # ? [1234, '12345678', 0.19, 'qwerty',True]
 print(lista3) # [1234, '12345678', 0.19, 'qwerty',True]
 
 print(lista)
+
+
+#Diccionarios
+#conjunto de datos, separados por comas, ordenados segun su ingreso, todos parten en la posicion 0
+#accedemos a los elementos de la lista por su clave
+#JSON
+alumno = {"nombre": "Cristian", "edad": 25, "curso": "python"}
+print (alumno['edad'])
+print (alumno['curso'])
