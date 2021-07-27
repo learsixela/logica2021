@@ -34,3 +34,27 @@ for key in alumno:
 
 for key, elemento in alumno.items():
     print(key," = " ,elemento)
+
+
+#WHILE
+for i in range(0,6):#0,1,2,3,4,5;  no se considera el numero 6
+    print ("el valor es: ",i)
+
+valor = 0
+while valor < 5:
+    print ("el valor es: ",valor)
+    valor = valor + 1 #incremento en 1; valor += 1; valor++
+else:
+    print ("valor es: ",valor)#valor es:  5
+
+#LOOP CONTROL (break)
+
+for valor in "palabra":
+    if valor == "r":
+        break
+    print (valor)
+    
+for i in range(2,13):
+    if i == 10:
+        break
+    print (i)
